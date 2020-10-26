@@ -9,7 +9,7 @@ const nextPlugins = [
 const baseConfig = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     Object.assign(config.resolve.alias, {
-      "@apps": join(__dirname, "apps"),
+      "@app": join(__dirname, "app"),
       "@shared": join(__dirname, "shared")
     });
     return config;
