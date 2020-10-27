@@ -1,14 +1,14 @@
 import React from "react";
 
 import { GSTN_ICON } from "@shared/urls";
-import { Whatsapp } from "@app/icons";
+import { Button, ZoidsRoot } from "@cleartax/zoids";
 
 const Facebook = () => {
   return (
-    <div>
+    <ZoidsRoot>
       {GSTN_ICON}
-      <Whatsapp />
-    </div>
+      <Button />
+    </ZoidsRoot>
   );
 };
 

@@ -11,7 +11,15 @@
     "next": "9.5.5",
     "react": "17.0.0",
     "react-dom": "17.0.0",
-    "react-icons": "^3.11.0"
+    "@cleartax/zoids": "6.8.4",
+    "antd": "^3.26.2",
+    "moment": "^2.24.0",
+    "classnames": "^2.2.6",
+    "react-icons": "^3.9.0",
+    "reflexbox": "^4.0.6",
+    "styled-components": ">= 4",
+    "@handsontable/react": ">=3.1.1",
+    "handsontable": ">=7.2.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.2",
