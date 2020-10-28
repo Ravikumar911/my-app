@@ -1,22 +1,11 @@
 import React, { useEffect } from "react";
 
-import { GSTN_ICON } from "@shared/urls";
-import { ZoidsRoot, Message, Toast } from "@cleartax/zoids";
+//import { GSTN_ICON } from "@shared/urls";
 // icons
 import { MdArrowForward } from "react-icons/md";
 
 const Facebook = () => {
-  useEffect(() => {
-    const t = Toast.configure({});
-    console.log(t);
-  }, []);
-  return (
-    <ZoidsRoot>
-      {GSTN_ICON}
-      <MdArrowForward />
-      <Message dismissText="close">Facebook</Message>
-    </ZoidsRoot>
-  );
+  return <MdArrowForward />;
 };
 
 export default Facebook;
