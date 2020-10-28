@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { GSTN_ICON } from "@shared/urls";
 import { ZoidsRoot, Message, Toast } from "@cleartax/zoids";
 // icons
-import { ArrowForward } from "@app/icons";
+import { MdArrowForward } from "react-icons/md";
 
 const Facebook = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const Facebook = () => {
   return (
     <ZoidsRoot>
       {GSTN_ICON}
-      <ArrowForward />
+      <MdArrowForward />
       <Message dismissText="close">Facebook</Message>
     </ZoidsRoot>
   );
