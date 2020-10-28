@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { GSTN_ICON } from "@shared/urls";
 import { ZoidsRoot, Message, Toast } from "@cleartax/zoids";
 // icons
-import { ArrowForward } from "@cleartax/zoids/build/lib/components/Icons/Icons";
+import { ArrowForward } from "@app/icons";
 
 const Facebook = () => {
   useEffect(() => {
